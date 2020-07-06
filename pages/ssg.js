@@ -1,7 +1,12 @@
 import DemoComponents from "../components/demo-components";
 
 export default function SSG() {
-    return <DemoComponents />;
+    return (
+        <>
+            <h1>Static Site Generation (SSG)</h1>
+            <DemoComponents />
+        </>
+    );
 }
 
 // If you build and start the app, the date returned here will have the same
